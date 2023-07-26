@@ -298,11 +298,16 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="통계보기" image="chart.bar" catalog="system" id="dUK-f1-lIP"/>
                     <connections>
-                        <outletCollection property="moodScoreView" destination="Umc-Ik-fXK" collectionClass="NSMutableArray" id="CdE-3l-3ni"/>
-                        <outletCollection property="moodScoreView" destination="ZyN-a6-3L0" collectionClass="NSMutableArray" id="6Ky-KV-bhm"/>
-                        <outletCollection property="moodScoreView" destination="y2M-KE-0kD" collectionClass="NSMutableArray" id="Ctm-u1-pSQ"/>
-                        <outletCollection property="moodScoreView" destination="tk6-9D-wpr" collectionClass="NSMutableArray" id="aBl-ZJ-aJu"/>
-                        <outletCollection property="moodScoreView" destination="eTc-JI-VZ4" collectionClass="NSMutableArray" id="zr1-LB-2Mh"/>
+                        <outletCollection property="moodScoreViewCollection" destination="Umc-Ik-fXK" collectionClass="NSMutableArray" id="wcC-V8-Lds"/>
+                        <outletCollection property="moodScoreViewCollection" destination="ZyN-a6-3L0" collectionClass="NSMutableArray" id="v6j-Ka-a6M"/>
+                        <outletCollection property="moodScoreViewCollection" destination="y2M-KE-0kD" collectionClass="NSMutableArray" id="Lpl-nm-PM2"/>
+                        <outletCollection property="moodScoreViewCollection" destination="tk6-9D-wpr" collectionClass="NSMutableArray" id="OId-ns-8RU"/>
+                        <outletCollection property="moodScoreViewCollection" destination="eTc-JI-VZ4" collectionClass="NSMutableArray" id="yrp-X5-4xH"/>
+                        <outletCollection property="moodScoreLabelCollection" destination="Oyd-bi-Qgk" collectionClass="NSMutableArray" id="8Na-U8-x7s"/>
+                        <outletCollection property="moodScoreLabelCollection" destination="2Rz-MZ-ihc" collectionClass="NSMutableArray" id="cDj-1S-rZN"/>
+                        <outletCollection property="moodScoreLabelCollection" destination="szB-P9-mru" collectionClass="NSMutableArray" id="lVB-jV-vmp"/>
+                        <outletCollection property="moodScoreLabelCollection" destination="MWQ-C7-08e" collectionClass="NSMutableArray" id="hap-xZ-Nad"/>
+                        <outletCollection property="moodScoreLabelCollection" destination="cRU-yJ-ylT" collectionClass="NSMutableArray" id="EEv-9W-oUe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz1-wc-muE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
